@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'kaushan_scriptregular';
+  src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+  url('kaushanscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+    font-family: "ttt";
+    src: url("take.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #FEDCC8;
+}
+.side_help{
+  display: block;
+  position: fixed;
+  top: 110px;
+  right: -40px;
+  height: 50px;
+  padding: 7px;
+  width: 180px;
+  text-align: center;
+  font-size: 30px;
+  background-color: transparent;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  border: 1px orange solid;
+  font-family: "kaushan_scriptregular" ,cursive;
+}
+
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -1500px;
+}
+.headd
+{
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    height: 50px;
+    padding: 7px;
+    width: 299px;
+    text-align: center;
+    font-size: 35px;
+    background-color: transparent;
+    font-family: "ttt" ,cursive;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.parallax__cover {
+  background-color: #2D112B;
+  display: block;
+  position: relative;
+  top: 98%;
+  left: 0;
+  right: 0;
+  height: 700px;
+  z-index: 2;
+  color: white;
+  text-align: center;
+    padding: 40px 20px 40px 20px;
+    font-family: "kaushan_scriptregular", cursive;
+}
+
+
+.parallax__layer__0 {
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
+}
+
+.parallax__layer__1 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax__layer__2 {
+  -webkit-transform: translateZ(-200px) scale(3);
+          transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__3 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__4 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
+}
